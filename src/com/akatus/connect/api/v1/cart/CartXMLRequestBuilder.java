@@ -152,7 +152,7 @@ class CartXMLRequestBuilder extends AkatusXMLRequestBuilder {
 		transactionElement.appendChild(createElementWithTextContent(
 				"peso_total", transaction.getWeight().toString()));
 		transactionElement.appendChild(createElementWithTextContent(
-				"frete_total", transaction.getDiscountAmount().toString()));
+				"frete_total", transaction.getShippingAmount().toString()));
 		transactionElement.appendChild(createElementWithTextContent("moeda",
 				transaction.getCurrency().toString()));
 		transactionElement.appendChild(createElementWithTextContent(

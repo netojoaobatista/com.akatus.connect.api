@@ -3,11 +3,9 @@ package com.akatus.connect.api.v1.paymentmethod;
 import org.w3c.dom.Element;
 
 import com.akatus.connect.api.AkatusOperation;
-import com.akatus.connect.api.AkatusRequestBuilder;
 import com.akatus.connect.api.v1.AkatusXMLRequestBuilder;
 
-class PaymentMethodsXMLRequestBuilder extends AkatusXMLRequestBuilder implements
-		AkatusRequestBuilder {
+class PaymentMethodsXMLRequestBuilder extends AkatusXMLRequestBuilder {
 
 	@Override
 	public String build(AkatusOperation operation) {

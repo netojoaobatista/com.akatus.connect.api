@@ -16,6 +16,7 @@ class CartXMLResponseReader extends AkatusXMLResponseBuilder {
 		((CartResponse) akatusResponse).setCart(getCart());
 		((CartResponse) akatusResponse).setReference(getReference());
 		((CartResponse) akatusResponse).setTransaction(getTransaction());
+		((CartResponse) akatusResponse).setReturnURL(getReturnURL());
 
 	}
 
@@ -29,5 +30,9 @@ class CartXMLResponseReader extends AkatusXMLResponseBuilder {
 
 	private String getTransaction() {
 		return getNodeTextValue("transacao");
+	}
+
+	private String getReturnURL() {
+		return getNodeTextValue("url_retorno");
 	}
 }

@@ -37,7 +37,7 @@ public class Payer implements Entity {
 	public Address newAddress() {
 		final Address address = new Address();
 
-		addresses.add(address);
+		addAddress(address);
 
 		return address;
 	}
@@ -45,7 +45,7 @@ public class Payer implements Entity {
 	public Phone newPhone() {
 		final Phone phone = new Phone();
 
-		phones.add(phone);
+		addPhone(phone);
 
 		return phone;
 	}

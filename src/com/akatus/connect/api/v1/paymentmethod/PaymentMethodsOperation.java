@@ -15,17 +15,14 @@ public class PaymentMethodsOperation extends AkatusOperation {
 		super(akatus);
 	}
 
-	@Override
 	protected AkatusRequestBuilder createDefaultRequestBuilder() {
 		return new PaymentMethodsXMLRequestBuilder();
 	}
 
-	@Override
 	protected AkatusResponseBuilder createDefaultResponseBuilder() {
 		return new PaymentMethodsXMLResponseBuilder();
 	}
 
-	@Override
 	public String getPath() {
 		final StringBuilder pathBuilder = new StringBuilder();
 

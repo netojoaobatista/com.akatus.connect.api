@@ -9,7 +9,6 @@ import com.akatus.connect.api.v1.AkatusXMLResponseBuilder;
 import com.akatus.connect.api.v1.entity.PaymentMethod;
 
 class PaymentMethodsXMLResponseBuilder extends AkatusXMLResponseBuilder {
-	@Override
 	protected AkatusResponse createAkatusResponse() {
 		return new PaymentMethodsResponse();
 	}

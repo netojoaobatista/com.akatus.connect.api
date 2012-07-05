@@ -1,0 +1,5 @@
+com.akatus.connect.api
+com.akatus.connect.api.v1
+com.akatus.connect.api.v1.cart
+com.akatus.connect.api.v1.entity
+com.akatus.connect.api.v1.paymentmethod

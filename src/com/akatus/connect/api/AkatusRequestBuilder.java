@@ -15,8 +15,8 @@ public interface AkatusRequestBuilder {
 	/**
 	 * Constroi o corpo da requisição.
 	 * 
-	 * @param A
-	 *            {@link AkatusOperation} que terá o corpo da requisição
+	 * @param operation
+	 *            é uma {@link AkatusOperation} que terá o corpo da requisição
 	 *            construído.
 	 * @return A {@link String} que representa o corpo que será enviado na
 	 *         requisição.

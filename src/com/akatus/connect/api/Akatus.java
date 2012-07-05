@@ -42,9 +42,11 @@ public class Akatus {
 	 * Constroi a instância do wrapper da Api da Akatus utilizando o ambiente de
 	 * produção.
 	 * 
-	 * @param {@link String} email O email da conta do vendedor.
-	 * @param {@link String} apiKey A chave da Api definida no painel da conta
-	 *        do vendedor.
+	 * @param email
+	 *            {@link String} O email da conta do vendedor.
+	 * @param apiKey
+	 *            {@link String} A chave da Api definida no painel da conta do
+	 *            vendedor.
 	 */
 	public Akatus(String email, String apiKey) {
 		this(Environment.PRODUCTION, email, apiKey);
@@ -54,11 +56,14 @@ public class Akatus {
 	 * Constroi a instância do wrapper da Api da Akatus definindo o ambiente de
 	 * execução.
 	 * 
-	 * @param {@link Akatus.Environment} environment O ambiente de execução das
-	 *        operações da Api.
-	 * @param {@link String} email O email da conta do vendedor.
-	 * @param {@link String} apiKey A chave da Api definida no painel da conta
-	 *        do vendedor.
+	 * @param environment
+	 *            {@link Akatus.Environment} O ambiente de execução das
+	 *            operações da Api.
+	 * @param email
+	 *            {@link String} O email da conta do vendedor.
+	 * @param apiKey
+	 *            {@link String} A chave da Api definida no painel da conta do
+	 *            vendedor.
 	 */
 	public Akatus(Environment environment, String email, String apiKey) {
 		this.environment = environment;

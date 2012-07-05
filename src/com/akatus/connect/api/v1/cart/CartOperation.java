@@ -32,8 +32,9 @@ public class CartOperation extends AkatusOperation {
 	/**
 	 * Adiciona um produto ao carrinho.
 	 * 
-	 * @param Uma
-	 *            instância de {@link Product} que será adicionada ao carrinho.
+	 * @param product
+	 *            é uma instância de {@link Product} que será adicionada ao
+	 *            carrinho.
 	 */
 	public void addProduct(Product product) {
 		products.add(product);

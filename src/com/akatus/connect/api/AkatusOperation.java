@@ -27,8 +27,8 @@ public abstract class AkatusOperation {
 	/**
 	 * Constroi o objeto que representa a operação passando o wrapper da API.
 	 * 
-	 * @param Instância
-	 *            do wrapper da API da {@link Akatus}
+	 * @param akatus
+	 *            é a instância do wrapper da API da {@link Akatus}
 	 */
 	public AkatusOperation(Akatus akatus) {
 		this.akatus = akatus;
@@ -52,12 +52,12 @@ public abstract class AkatusOperation {
 	 * Executa a operação da API informando um Builder para a requisição e
 	 * resposta.
 	 * 
-	 * @param Instância
-	 *            de {@link AkatusRequestBuilder} responsável pela criação do
-	 *            corpo da requisição.
-	 * @param Instância
-	 *            de {@link AkatusResponseBuilder} responsável pela criação do
-	 *            objeto que representa a resposta.
+	 * @param requestBuilder
+	 *            é uma instância de {@link AkatusRequestBuilder} responsável
+	 *            pela criação do corpo da requisição.
+	 * @param responseBuilder
+	 *            é uma instância de {@link AkatusResponseBuilder} responsável
+	 *            pela criação do objeto que representa a resposta.
 	 * @return Uma instância de {@link AkatusResponse} com a resposta da
 	 *         operação.
 	 */
@@ -146,8 +146,9 @@ public abstract class AkatusOperation {
 	}
 
 	/**
-	 * @param Uma
-	 *            {@link String} que representa a versão que será utilizada.
+	 * @param apiVersion
+	 *            é uma {@link String} que representa a versão que será
+	 *            utilizada.
 	 */
 	public void setApiVersion(String apiVersion) {
 		this.apiVersion = apiVersion;

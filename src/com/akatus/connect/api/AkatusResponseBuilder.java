@@ -9,9 +9,9 @@ public interface AkatusResponseBuilder {
 	/**
 	 * Constroi o objeto que representa a resposta.
 	 * 
-	 * @param A
-	 *            {@link String} que será utilizada para a construção do objeto
-	 *            de resposta da operação.
+	 * @param response
+	 *            é uma {@link String} que será utilizada para a construção do
+	 *            objeto de resposta da operação.
 	 * @return Uma instância de {@link AkatusResponse} que representa a resposta
 	 *         da operação.
 	 */

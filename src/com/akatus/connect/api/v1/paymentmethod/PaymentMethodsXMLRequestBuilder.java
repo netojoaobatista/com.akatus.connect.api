@@ -6,8 +6,6 @@ import com.akatus.connect.api.AkatusOperation;
 import com.akatus.connect.api.v1.AkatusXMLRequestBuilder;
 
 class PaymentMethodsXMLRequestBuilder extends AkatusXMLRequestBuilder {
-
-	@Override
 	public String build(AkatusOperation operation) {
 		createDocument();
 		createPaymentMethods((PaymentMethodsOperation) operation);

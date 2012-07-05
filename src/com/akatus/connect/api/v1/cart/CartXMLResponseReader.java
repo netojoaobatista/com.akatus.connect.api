@@ -4,7 +4,6 @@ import com.akatus.connect.api.AkatusResponse;
 import com.akatus.connect.api.v1.AkatusXMLResponseBuilder;
 
 class CartXMLResponseReader extends AkatusXMLResponseBuilder {
-	@Override
 	protected AkatusResponse createAkatusResponse() {
 		return new CartResponse();
 	}

@@ -15,7 +15,6 @@ import com.akatus.connect.api.AkatusResponseBuilder;
 public abstract class AkatusXMLResponseBuilder extends
 		AkatusXMLRequestResponseBuilder implements AkatusResponseBuilder {
 
-	@Override
 	public AkatusResponse build(String response) {
 		final AkatusResponse akatusResponse = createAkatusResponse();
 

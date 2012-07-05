@@ -9,6 +9,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
+import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import com.akatus.connect.api.AkatusOperation;
@@ -26,7 +27,6 @@ public abstract class AkatusXMLRequestBuilder extends
 	/**
 	 * Recupera o Content-Type do conteúdo que será construído.
 	 */
-	@Override
 	public String getContentType() {
 		return "text/xml; charset=utf-8";
 	}

@@ -14,7 +14,6 @@ import com.akatus.connect.api.v1.entity.Product;
 import com.akatus.connect.api.v1.entity.Transaction;
 
 class CartXMLRequestBuilder extends AkatusXMLRequestBuilder {
-	@Override
 	public String build(AkatusOperation operation) {
 		createDocument();
 		createCarrinho((CartOperation) operation);
